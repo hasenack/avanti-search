@@ -225,7 +225,7 @@
         self._disableButton(self.options.classLoadMore);
 
         if (self._checkDefaultParams() || self.options.checkHasDefaultParams) {
-          self._startFirst(1, true);
+          self._startFirst(1, false);
         }
 
       } else {
